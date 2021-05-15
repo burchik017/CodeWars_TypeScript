@@ -37,3 +37,22 @@ console.log(accum('asvrQW'));
 // function accum(s: string): string {
 //   return s.split("").map((value, index) => (value.toUpperCase() + value.toLowerCase().repeat(index))).join("-");
 // }
+
+
+
+
+// ////////////// for reduce
+// function accum(s: string): string {
+  
+//   return s.split('').reduce((a, b, i) => {
+//     const newStr = b.repeat(i + 1);
+//     const newStrLowercase = newStr.toLowerCase();
+//     const changedStr = newStrLowercase.charAt(0).toUpperCase() + newStrLowercase.slice(1);
+    
+//     const divider = i > 0 ? '-' : '';
+    
+//     return `${a}${divider}${changedStr}`; 
+//   }, '');
+// }
+
+// console.log(accum('asvrQW'));
