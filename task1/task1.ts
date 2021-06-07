@@ -27,3 +27,18 @@ export class Kata {
     }
   }
  console.log(Kata.disemvowel('This website is for losers LOL!'));
+
+
+// ver2.0
+
+//  function disemvowel(str) {
+//   let newString = "";
+//   for (var i = 0; i < str.length; i++) {
+//     if (!"aeiou".includes(str[i].toLowerCase())) {
+//       newString += str[i];
+//     };
+//   }
+//   return newString
+// }
+
+// console.log(disemvowel("This website is for losers LOL!"));
