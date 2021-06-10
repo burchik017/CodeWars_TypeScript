@@ -24,7 +24,9 @@ export function order(words:string):string{
 
 
 
-//  js
+//  ver 2.0 js
+
+
 // function order(words){
 //     let wordArray = words.split(' ');
 //     let resultArray = [];
