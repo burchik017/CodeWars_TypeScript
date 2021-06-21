@@ -33,7 +33,6 @@ export function parse(data: string): number[] {
   }
 
 
-
 //   ver 2.0 
 export function parse(data: string): number[] {
     let v = 0, result = []
